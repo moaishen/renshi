@@ -36,8 +36,12 @@
           <th>性别</th>
           <th>年龄</th>
           <th>手机号码</th>
+          <th>邮箱</th>
+          <th>籍贯</th>
+          <th>身份证号</th>
           <th>学历</th>
           <th>职位</th>
+          <th>所属部门</th>
           <th>入职日期</th>
           <th>状态</th>
           <th>操作</th>
@@ -51,8 +55,12 @@
           <td>男</td>
           <td>20</td>
           <td>13800138000</td>
+          <td>12qweqw3@qq.com</td>
+          <td>广东东莞</td>
+          <td>440981199906135470</td>
           <td>本科</td>
           <td>前端</td>
+          <td>技术部</td>
           <td>2017-01-12</td>
           <td>正式员工</td>
           <td>
@@ -61,14 +69,18 @@
           </td>
         </tr>
         <tr>
-          <th scope="row">2</th>
+          <th scope="row">1</th>
           <td>1001</td>
           <td>jian</td>
           <td>男</td>
           <td>20</td>
           <td>13800138000</td>
+          <td>12qweqw3@qq.com</td>
+          <td>广东东莞</td>
+          <td>440981199906135470</td>
           <td>本科</td>
           <td>前端</td>
+          <td>技术部</td>
           <td>2017-01-12</td>
           <td>正式员工</td>
           <td>
@@ -77,16 +89,21 @@
           </td>
         </tr>
         <tr>
-          <th scope="row">3</th>
-          <td>1001</td>
-          <td>jian</td>
-          <td>男</td>
-          <td>20</td>
-          <td>13800138000</td>
-          <td>本科</td>
-          <td>前端</td>
-          <td>2017-01-12</td>
-          <td>正式员工</td>
+          <th scope="row">1</th>
+          <td><{$staff['stNum']}></td>
+          <td><{$staff['stName']}></td>
+          <td><{$staff['stSex']}></td>
+          <td><{$staff['stAge']}></td>
+          <td><{$staff['stTel']}></td>
+          <td><{$staff['stEmail']}></td>
+          <td><{$staff['stNativePlace']}></td>
+          <td><{$staff['stIDCard']}></td>
+          <td><{$staff['stDegress']}></td>
+          <td><{$staff['stDepartment']}></td>
+          <td><{$staff['stDuties']}></td>
+          <td><{$staff['stEntryDate']}></td>
+          <td><{$staff['stJobState']}></td>
+
           <td>
 			  <button type="button" class="btn btn-info">编辑</button>
 			  <button type="button" class="btn btn-danger">删除</button>
