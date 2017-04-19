@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -7,8 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="keywords" content=""/>
     <meta name="description" content=""/>
-    <link rel="stylesheet" href="__PUBLIC__/css/bootstrap.min.css">
-    <link rel="stylesheet" href="__PUBLIC__/css/style.css">
+    <link rel="stylesheet" href="/Public/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/Public/css/style.css">
     <title>添加员工</title>
 </head>
 <body>
